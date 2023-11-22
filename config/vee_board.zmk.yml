@@ -1,0 +1,11 @@
+file_format: "1"
+id: vee_board
+name: vee-board
+type: shield
+url: https://github.com/v-Zak/vee_board
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - vee_board_left
+  - vee_board_right

@@ -1,6 +1,6 @@
-# Rae-Dux
+# vee-board-config
 
-Shield configuration for [rae-dux][1], a 36-key diodeless interpretation of the [A. Dux by Tapi][2].
+Shield configuration for [vee-board][1], a 36-key diodeless interpretation of the [corne][2].
 
-[1]: https://github.com/andrewjrae/rae-dux
-[2]: https://github.com/tapioki/cephalopoda/tree/main/Architeuthis%20dux
+[1]: https://github.com/v-Zak/vee_board
+[2]: https://github.com/foostan/crkbd

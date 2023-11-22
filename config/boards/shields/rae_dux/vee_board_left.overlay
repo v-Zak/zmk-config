@@ -4,4 +4,4 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "rae_dux.dtsi"
+#include "vee_board.dtsi"
