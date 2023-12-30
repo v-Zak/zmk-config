@@ -17,15 +17,6 @@
     continue-list = <UNDERSCORE MINUS BSPC>;
 };
 
-// Allow USB logging
-&usbd {
-	status = "okay";
-	cdc_acm_uart: cdc_acm_uart {
-		compatible = "zephyr,cdc-acm-uart";
-		label = "CDC_ACM_0";
-	};
-};
-
 #define RSTHD_L 0
 #define NUM_L   1
 #define SYM_L   2
@@ -40,11 +31,6 @@
 #define VI_B LC(LEFT)
 
 / {
-    // Allow USB logging
-	chosen {
-		zephyr,console = &cdc_acm_uart;
-	};
-
     combos {
         compatible = "zmk,combos";
 
