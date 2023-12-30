@@ -30,7 +30,7 @@ Keyboard Net:
 		};
 	};
 
-default_transform: keymap_transform_0 {
+&default_transform: keymap_transform_0 {
 	compatible = "zmk,matrix-transform";
 	columns = <36>;
 	rows = <1>;
@@ -42,7 +42,7 @@ default_transform: keymap_transform_0 {
 	>;
 };
 
-kscan0: kscan {
+&kscan0: kscan {
 	compatible = "zmk,kscan-gpio-direct";
 	label = "KSCAN";
 	input-gpios =
