@@ -31,19 +31,19 @@
 
         nums {
             bindings = <
-  &kp TILDE  &kp F1     &kp F2              &kp F3  &trans      &kp ASTERISK        &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3        &kp MINUS
-  &mt LEFT_WIN CAPS     &mt LEFT_ALT F4     &mt LCTRL F5        &mt LEFT_SHIFT F6   &trans          &kp SLASH       &mt RIGHT_SHIFT NUMBER_4  &mt RCTRL NUMBER_5  &mt LEFT_ALT NUMBER_6  &mt RIGHT_WIN EQUAL
-  &trans     &kp F7  &kp F8  &kp F9  &trans    &trans          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ENTER
-                     &trans  &trans  &trans    &kp LEFT_SHIFT  &kp N0        &trans
+  &kp TILDE          &kp F1           &kp F2        &kp F3             &kp F10    &kp ASTERISK    &kp NUMBER_1              &kp NUMBER_2        &kp NUMBER_3           &kp MINUS
+  &mt LEFT_WIN CAPS  &mt LEFT_ALT F4  &mt LCTRL F5  &mt LEFT_SHIFT F6  &kp F11    &kp SLASH       &mt RIGHT_SHIFT NUMBER_4  &mt RCTRL NUMBER_5  &mt LEFT_ALT NUMBER_6  &mt RIGHT_WIN EQUAL
+  &trans             &kp F7           &kp F8        &kp F9             &kp F12    &trans          &kp NUMBER_7              &kp NUMBER_8        &kp NUMBER_9           &kp ENTER
+                                      &trans        &trans             &trans     &kp LEFT_SHIFT  &kp N0                    &trans
             >;
         };
 
         syms {
             bindings = <
-  &kp LESS_THAN  &kp GREATER_THAN  &kp LS(LPAR)  &kp LS(RPAR)  &trans     &trans    &trans     &trans     &trans     &trans
-  &kp COMMA      &kp PERIOD        &kp LS(LBRC)  &kp LS(RBRC)  &kp SQT    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans
-  &trans         &trans            &kp LBKT      &kp RBKT      &trans     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans
-                                   &trans        &trans        &trans     &trans    &trans     &trans
+  &kp LESS_THAN  &kp GREATER_THAN  &kp LS(LPAR)  &kp LS(RPAR)  &trans            &trans    &trans     &trans     &trans     &trans
+  &kp COMMA      &kp PERIOD        &kp LS(LBRC)  &kp LS(RBRC)  &kp SQT           &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans
+  &trans         &trans            &kp LBKT      &kp RBKT      &trans            &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans
+                                   &trans        &trans        &kp LEFT_SHIFT    &trans    &trans     &trans
             >;
         };
     };
