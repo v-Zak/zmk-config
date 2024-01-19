@@ -31,8 +31,8 @@
 
         nums {
             bindings = <
-  &kp TILDE  &kp F1  &kp F2  &kp F3  &trans    &kp ASTERISK    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS
-  &kp CAPS   &kp F4  &kp F5  &kp F6  &trans    &kp SLASH       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL
+  &kp TILDE  &kp F1     &kp F2              &kp F3  &trans      &kp ASTERISK        &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3        &kp MINUS
+  &mt LEFT_WIN CAPS     &mt LEFT_ALT F4     &mt LCTRL F5        &mt LEFT_SHIFT F6   &trans          &kp SLASH       &mt RIGHT_SHIFT NUMBER_4  &mt RCTRL NUMBER_5  &mt LEFT_ALT NUMBER_6  &mt RIGHT_WIN EQUAL
   &trans     &kp F7  &kp F8  &kp F9  &trans    &trans          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ENTER
                      &trans  &trans  &trans    &kp LEFT_SHIFT  &kp N0        &trans
             >;
