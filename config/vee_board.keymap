@@ -46,7 +46,7 @@
             bindings = <
   &kp LESS_THAN  &kp GREATER_THAN  &kp LS(LPAR)  &kp LS(RPAR)  &trans            &kp ASTERISK  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp UNDERSCORE
   &kp TILDE      &trans            &kp LS(LBRC)  &kp LS(RBRC)  &kp SQT           &kp QUESTION  &kp DOLLAR       &kp PERCENT   &kp RS(CARET)         &kp PLUS
-  &kp BACKSLASH  &kp SLASH         &kp LBKT      &kp RBKT      &kp GRAVE         &kp PIPE      &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &trans
+  &kp BACKSLASH  &kp SLASH         &kp LBKT      &kp RBKT      &kp GRAVE         &kp PIPE      &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp ENTER
                                    &trans        &trans        &kp LEFT_SHIFT    &trans        &trans           &trans
             >;
         };
